@@ -1,2 +1,2 @@
-BOT_TOKEN="1865890279:AAH8x3EU2UI-d14v3lHBX3SB8SBV8dgW248"
-BOT_OWNER="481491791"
+# group ids you can retrieve with @username_to_id_bot
+BOT_TOKEN="<bot-token>"
