@@ -1,6 +1,10 @@
 from aiogram import types
 from aiogram.dispatcher.filters import BoundFilter
-import config
+from dotenv import load_dotenv, find_dotenv
+import os
+
+# Find .env file
+load_dotenv(find_dotenv())
 
 class IsOwnerFilter(BoundFilter):
     """
@@ -12,7 +16,7 @@ class IsOwnerFilter(BoundFilter):
         self.is_owner = is_owner
     
     async def check(self, message: types.Message):
-        return message.from_user.id == config.BOT_OWNER
+        return message.from_user.id == os.getenv('BOT_OWNER')
 
 class IsAdminFilter(BoundFilter):
     """
