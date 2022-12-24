@@ -1,0 +1,28 @@
+# Install aiogram on steroids by default
+aiogram
+# uvloop  # windows not supported (uncheck, if you are on Linux)
+ujson
+aiohttp[speedups]
+
+# Or choose manually what to install ...
+# aiogram  # general aiogram
+# uvloop  # fast, drop-in replacement of the built-in asyncio event loop
+# ujson  # ultra fast JSON encoder and decoder written in pure C
+# cchardet # (aiohttp speedup) high speed universal character encoding detector
+# aiodns # (aiohttp speedup) provides a simple way for doing asynchronous DNS resolutions
+
+###############################################################
+###     Some useful async libraries to use with aiogram     ###
+### for more: https://github.com/timofurrer/awesome-asyncio ###
+##############################################################
+
+# aiosqlite  # Async work with SQLite
+# asyncpg  # Async work with PostgreSQL
+# motor  # Async work with MongoDB
+# pyzmq  # Async work with ZeroMQ
+# piccolo  # Async ORM
+# httpx  # Async http client
+# aiofiles  # Async work with files
+# aioamqp  # Async work with AMQP
+# aiocache  # Async work with cache system
+# aiopath  # Async pathlib
