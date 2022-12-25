@@ -11,6 +11,9 @@ aiohttp[speedups]
 # cchardet # (aiohttp speedup) high speed universal character encoding detector
 # aiodns # (aiohttp speedup) provides a simple way for doing asynchronous DNS resolutions
 
+# Other required packages
+python-dotenv
+
 ###############################################################
 ###     Some useful async libraries to use with aiogram     ###
 ### for more: https://github.com/timofurrer/awesome-asyncio ###
