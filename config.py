@@ -1,3 +1,9 @@
-# group ids or account ids can be retrieved with @username_to_id_bot
-BOT_TOKEN="<bot-token>"
-BOT_OWNER=<bot-owner-id>
+from dotenv import load_dotenv, find_dotenv
+import os
+
+# Find .env file with os variables
+load_dotenv(find_dotenv())
+
+# retrieve config variables
+BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_OWNER = int(os.getenv('BOT_OWNER'))
