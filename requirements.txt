@@ -21,7 +21,7 @@ aiohttp[speedups]
 # motor  # Async work with MongoDB
 # pyzmq  # Async work with ZeroMQ
 # piccolo  # Async ORM
-# aql  # Async query builder
+# aql  # Async query builder (beta)
 # httpx  # Async http client
 # aiofiles  # Async work with files
 # aioamqp  # Async work with AMQP
