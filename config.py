@@ -1,4 +1,4 @@
-from dotenv import load_dotenv, find_dotenv
+from dotenv import load_dotenv
 import os
 
 # Find .env file with os variables
