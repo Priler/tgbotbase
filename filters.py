@@ -13,7 +13,7 @@ class IsOwnerFilter(BoundFilter):
         self.is_owner = is_owner
 
     async def check(self, message: types.Message):
-        return message.from_user.id == config.BOT_OWNER
+        return message.from_user.id in config.BOT_OWNERS
 
 
 class IsAdminFilter(BoundFilter):
