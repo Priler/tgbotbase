@@ -1,5 +1,5 @@
 # Install aiogram on steroids by default
-aiogram
+aiogram==2.25.2
 # uvloop  # windows not supported (uncomment if you are on Linux)
 ujson
 aiohttp[speedups]
